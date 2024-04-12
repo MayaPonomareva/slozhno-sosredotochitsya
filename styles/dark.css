@@ -1,8 +1,11 @@
-:root {
+
+:root.theme-dark {
   --text-color: #F1B2CE;
-  --accent-color: #FF0070; 
-  --title-decor: #000028; /* Заголовки с информацией */
+  --accent-color: rgb(255, 0, 112); 
+  --dominant-color: #000028; /* Заголовки с информацией */
   --main-title-color: #DB00FF; /* заголовок сайта */
+  --transparent-accent-color: rgba(255, 0, 112, 0.4);
+
 }
 
 /*
