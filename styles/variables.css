@@ -2,12 +2,29 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-
+/*
 :root {
   --text-color: #F1B2CE;
   --accent-color: #FF0070; 
   --dominant-color: #000028; /* Заголовки с информацией , бэк*/
-  --main-title-color: #DB00FF; /* заголовок сайта */
+  /*--main-title-color: #DB00FF; /* заголовок сайта */
+  /*--accent-font: 'IBM Plex mono bold';
+  --main-font: 'IBM Plex mono';
+  --bg-page-img: url(../images/cover-image-dark.png);
+}
+*/
+
+:root {
+  --button-color: #FF0070;
+  --main-text-color: #FF0070;
+  --main-title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --transparent-accent-color: #FF007040;
+  --block-title: #FF0070;
+  --text-color: #F1B2CE;
+  --dominant-color: #000028;
+  --sbttl: #000028;
   --accent-font: 'IBM Plex mono bold';
   --main-font: 'IBM Plex mono';
+  --bg-page-img: url(../images/cover-image-dark.png);
 }

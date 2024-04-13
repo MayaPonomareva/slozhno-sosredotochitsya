@@ -1,22 +1,64 @@
-
-:root.theme-dark {
+.page.theme_dark {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  --buttn-color: #FF0070;
+  --main-text-color: #FF0070;
+  --main-title-color: #DB00FF;
+  --main-title-shadow: #FF0070;
+  --accent-color: #FF0070;
+  --transparent-accent-color: #FF007040;
+  --block-title: #FF0070;
   --text-color: #F1B2CE;
-  --accent-color: rgb(255, 0, 112); 
-  --dominant-color: #000028; /* Заголовки с информацией */
-  --main-title-color: #DB00FF; /* заголовок сайта */
-  --transparent-accent-color: rgba(255, 0, 112, 0.4);
-
+  --dominant-color: #000028;
+  --sbttl: #000028;
+  --accent-font: 'IBM Plex mono bold';
+  --main-font: 'IBM Plex mono';
+  --bg-page-img: url(../images/cover-image-dark.png);
+  --rec: #FF0070;
 }
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --buttn-color: #FF0070;
+    --main-text-color: #FF0070;
+    --main-title-color: #DB00FF;
+    --main-title-shadow: #FF0070;
+    --accent-color: #FF0070;
+    --transparent-accent-color: #FF007040;
+    --block-title: #FF0070;
+    --text-color: #F1B2CE;
+    --dominant-color: #000028;
+    --sbttl: #000028;
+    --accent-font: 'IBM Plex mono bold';
+    --main-font: 'IBM Plex mono';
+    --bg-page-img: url(../images/cover-image-dark.png);
+    --rec: #FF0070;
+  }  
+ 
+  @media(max-width: 1023.9px){
+    .header__title {
+      text-shadow: 4px 4px 0 var(--accent-color);
+  }
+  }
+} 
+
+.decor_element {
+  color: var(--rec);
+}
+
+.decor_element::after {
+  background-color: var(--rec);
+  box-shadow: 0px 0px 4px 2px var(--rec);
+}
+
+
 
 /*
   Специально для тёмной темы при наличии класса,
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
