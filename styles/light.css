@@ -22,6 +22,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --buttn-color: #353430;
     --main-text-color: #FF8DCB;
@@ -36,10 +37,11 @@
     --main-font: 'IBM Plex mono';
     --bg-page-img: url(../images/cover-image-light.png);
     --rec: transparent;
-  }  
+  }
+
 } 
 
-@media(max-width: 1023.9px){
+@media(max-width: 1023.9px) {
   .header__title {
     text-shadow: 4px 4px 0 var(--accent-color);
   }

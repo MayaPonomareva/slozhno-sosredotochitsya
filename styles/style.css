@@ -8,6 +8,7 @@
   align-items: center;
   flex-direction: column;
   background-color: var( --dominant-color);
+  background-attachment: fixed;
 }
 
 .header {
@@ -89,7 +90,6 @@
 .decor_element::after {
   display: flex;
   content: '';
-  display: block;
   border-radius: 50%;
   float: right;
   margin-inline-start: 10px;
@@ -188,9 +188,11 @@
 }
 
 @media(min-width: 768.001px) {
+
   .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4532vw, 9.8125rem); ;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4532vw, 9.8125rem); 
   }
+
 }
 
 .header__description {
@@ -255,10 +257,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  
-}
-
 .main__block-title {
   display: flex;
   color: var(--accent-color);
@@ -272,7 +270,7 @@
 .main__block-info-subtitle,
 .main__block-info-sub-subtitle {
   background-color: var(--accent-color);
-  color: var(--dominant-color);
+  color: var(--sbttl);
 }
 
 .main__block-info-subtitle {

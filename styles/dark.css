@@ -39,7 +39,7 @@
     --rec: #FF0070;
   }  
  
-  @media(max-width: 1023.9px){
+  @media(max-width: 1023.9px) {
     .header__title {
       text-shadow: 4px 4px 0 var(--accent-color);
   }
