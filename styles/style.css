@@ -188,16 +188,14 @@
 }
 
 @media(min-width: 768.001px) {
-
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4532vw, 9.8125rem); 
   }
-
 }
 
 .header__description {
   font-family: var(--accent-font);
-  color: var(--sbttl);
+  color: var(--description);
   font-size: 18px;
   line-height: 23.4px;
   grid-template-rows: 2fr;
@@ -259,12 +257,11 @@
 
 .main__block-title {
   display: flex;
-  color: var(--accent-color);
+  color: var(--ttl);
   font-family: var(--accent-font);
   font-weight: 700;
   flex-wrap: wrap;
-  min-inline-size: 236px;
-  max-inline-size: 237px;
+  max-inline-size: 375px;
 }
 
 .main__block-info-subtitle,

@@ -12,6 +12,8 @@
   --block-title: #FF0070;
   --text-color: #F1B2CE;
   --dominant-color: #000028;
+  --description: #000028;
+  --ttl: #FF0070;
   --sbttl: #000028;
   --accent-font: 'IBM Plex mono bold';
   --main-font: 'IBM Plex mono';
@@ -32,6 +34,8 @@
     --block-title: #FF0070;
     --text-color: #F1B2CE;
     --dominant-color: #000028;
+    --description: #000028;
+    --ttl: #FF0070;
     --sbttl: #000028;
     --accent-font: 'IBM Plex mono bold';
     --main-font: 'IBM Plex mono';
