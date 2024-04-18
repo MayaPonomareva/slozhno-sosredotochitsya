@@ -262,6 +262,7 @@
   font-weight: 700;
   flex-wrap: wrap;
   max-inline-size: 375px;
+  line-height: 23.4px;
 }
 
 .main__block-info-subtitle,
@@ -272,11 +273,13 @@
 
 .main__block-info-subtitle {
   font-family: var(--accent-font);
+  line-height: 23.4px;
 }
 
 .main__block-info-sub-subtitle {
   font-family: var(--main-font);
   font-weight: 400;
+  line-height: 23.4px;
 }
 
 
@@ -284,7 +287,7 @@
   font-family: var(--main-font);
   color: var(--text-color);
   font-weight: 400;
-  line-height: 23.5px;
+  line-height: 23.4px;
 }
 
 /* Galery */
