@@ -273,7 +273,8 @@
 
 @media (width: 768px) {
   .main__block-title {
-    max-inline-size: 236px;
+   min-inline-size: 236px;
+   max-inline-size: 237px;
   }
 }
 
