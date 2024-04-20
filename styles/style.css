@@ -265,10 +265,17 @@
   line-height: 23.4px;
 }
 
-@media (min-width: 768px) {
+@media (width: 768px) {
   .main__block-title {
-    min-inline-size: clamp(14.75rem, 30.859vw - 0.063rem, 19.688rem);
+    max-inline-size: 236px;
   }
+}
+
+@media (min-width: 769px), (max-width: 1024px) {
+  .main__block-title {
+   inline-size: clamp(14.75rem, 30.859vw - 0.063rem, 19.688rem);
+  }
+
 }
 
 .main__block-info-subtitle,
@@ -297,6 +304,10 @@
 }
 
 /* Galery */
+
+.galery {
+  row-gap: clamp(0.625rem, 2.545vw + 0.029rem, 1.25rem);
+}
 
 .main__galery-cards {
   display: flex;
