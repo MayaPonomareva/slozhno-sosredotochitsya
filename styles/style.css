@@ -255,6 +255,12 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .column-block-description {
+    flex-direction: row;
+  }
+}
+
 .main__block-title {
   display: flex;
   color: var(--ttl);
@@ -271,7 +277,7 @@
   }
 }
 
-@media (min-width: 769px), (max-width: 1024px) {
+@media (min-width: 769px) {
   .main__block-title {
    inline-size: clamp(14.75rem, 30.859vw - 0.063rem, 19.688rem);
   }
