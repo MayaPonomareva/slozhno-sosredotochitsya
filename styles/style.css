@@ -42,8 +42,8 @@
 
 /* Top edge */
 .decorated-zone::before {
-  border-block-start: 1px var(--accent-color) solid;
-  border-inline-end: 1px var(--accent-color) solid;
+  border-block-start: 1px var(--edge) solid;
+  border-inline-end: 1px var(--edge) solid;
   inset-inline-end: 10px;
   inset-block-start: 10px;
 }
@@ -57,8 +57,8 @@
 
 /* Bottom edge */
 .decorated-zone::after {
-  border-block-end: 1px var(--accent-color) solid;
-  border-inline-start: 1px var(--accent-color) solid;
+  border-block-end: 1px var(--edge) solid;
+  border-inline-start: 1px var(--edge) solid;
   inset-inline-start: 10px;
   inset-block-end: 10px;
 }

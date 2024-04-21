@@ -8,6 +8,7 @@
   --main-title-color: #DB00FF;
   --main-title-shadow: #FF0070;
   --accent-color: #FF0070;
+  --edge: #FF0070;
   --transparent-accent-color: #FF007040;
   --block-title: #FF0070;
   --text-color: #F1B2CE;
@@ -30,6 +31,7 @@
     --main-title-color: #DB00FF;
     --main-title-shadow: #FF0070;
     --accent-color: #FF0070;
+    --edge: #FF0070;
     --transparent-accent-color: #FF007040;
     --block-title: #FF0070;
     --text-color: #F1B2CE;
