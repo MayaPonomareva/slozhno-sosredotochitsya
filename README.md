@@ -1,0 +1,1 @@
+git@github.com:MayaPonomareva/slozhno-sosredotochitsya.git
