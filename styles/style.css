@@ -291,6 +291,12 @@
   }
 }
 
+@media (width: 1024px) {
+  .description-columm {
+    min-inline-size: 315px;
+  }
+}
+ 
 .main__block-info-subtitle,
 .main__block-info-sub-subtitle {
   background-color: var(--accent-color);
