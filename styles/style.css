@@ -326,6 +326,7 @@
 
 .galery {
   row-gap: clamp(0.625rem, 2.545vw + 0.029rem, 1.25rem);
+  padding-block-end: clamp(2.5rem, 5.089vw + 1.307rem, 3.75rem);
 }
 
 .main__galery-cards {
