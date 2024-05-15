@@ -227,10 +227,6 @@
   border-block-end: 1px solid var(--link);
 }
 
-.link:focus {
-  
-}
-
 .link:focus-visible {
   outline: 1px solid var(--link);
 }
@@ -407,6 +403,7 @@
 .footer {
   display: flex;
   min-block-size: 668px;
+  block-size: 100vh;
   inline-size: 100%;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
