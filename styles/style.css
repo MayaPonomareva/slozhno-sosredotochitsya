@@ -195,7 +195,8 @@
 }
 
 .header__description {
-  font-family: var(--accent-font);
+  font-family: var(--main-font);
+  font-weight: 700;
   color: var(--description);
   font-size: 18px;
   line-height: 23.4px;
@@ -277,7 +278,7 @@
 .main__block-title {
   display: flex;
   color: var(--ttl);
-  font-family: var(--accent-font);
+  font-family: var(--main-font);
   font-weight: 700;
   flex-wrap: wrap;
   max-inline-size: 375px;
@@ -317,7 +318,8 @@
 }
 
 .main__block-info-subtitle {
-  font-family: var(--accent-font);
+  font-family: var(--main-font);
+  font-weight: 700;
   line-height: 23.4px;
 }
 
@@ -415,7 +417,8 @@
 
 .footer__title {
   display: flex;
-  font-family: var(--accent-font);
+  font-family: var(--main-font);
+  font-weight: 700;
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   color: var(--main-title-color);
   text-shadow: var(--accent-color) 2px 2px;
