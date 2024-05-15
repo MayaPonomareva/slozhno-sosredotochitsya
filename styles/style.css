@@ -7,20 +7,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: var(--bg-page-img);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: var( --dominant-color);
   background-attachment: fixed;
 }
 
 .header {
+  min-block-size: 668px;
   padding: 10px 10px 10px 10px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   block-size: 100vh;
   inline-size: 100%;
-  background-image: var(--bg-page-img);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: relative;
   box-sizing: border-box;
 }
@@ -135,7 +136,6 @@
 .header__theme-menu-item {
   line-height: 18px;
   inline-size: 100%;
-  block-size: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -154,6 +154,7 @@
 
 .header__theme-menu-button:hover {
   border:1px solid var(--transparent-accent-color);
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -201,15 +202,15 @@
   grid-template-rows: 2fr;
   background-color: var(  --accent-color);
   inline-size: clamp(22.188rem, 2.29vw + 21.651rem, 22.75rem);
-  block-size: 117px;
+  min-block-size: 117px;
   align-self: center;
   justify-self: end;
 }
 
 @media (min-width: 768.09px) {
   .header__description {
-    inline-size: 491px;
-    block-size: 71px;
+    min-inline-size: 491px;
+    min-block-size: 71px;
     margin-block-start: 20px;
   }
 }
@@ -217,8 +218,20 @@
 /* Main block */
 
 .link {
-  text-shadow: 1px 1px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
+}
+
+.link:hover {
+  border-block-end: 1px solid var(--link);
+}
+
+.link:focus {
+  
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--link);
 }
 
 .main {
@@ -342,12 +355,12 @@
     grid-auto-flow: row dense;
   }
 
-  .first-card {
+  .sunset {
     grid-column-start: 1;
     grid-column-end: 3;
   }
   
-  .second-card {
+  .icecream {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -357,7 +370,7 @@
     block-size: 100%;
   }
   
-  .third-card {
+  .player {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -367,14 +380,14 @@
     block-size: 100%;
   }
   
-  .fourth-card {
+  .books {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
   }
   
-  .last-card {
+  .street {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -391,7 +404,7 @@
 
 .footer {
   display: flex;
-  block-size: 100vh;
+  min-block-size: 668px;
   inline-size: 100%;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
