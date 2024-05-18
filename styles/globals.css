@@ -49,3 +49,9 @@ button {
   color: inherit;
   background-color: transparent;
 }
+
+header,
+main, 
+footer {
+  border: 0;
+}

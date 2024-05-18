@@ -4,6 +4,7 @@
   display: flex;
   min-inline-size: 374.99px;
   max-inline-size: 1024.99px;
+  inline-size: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -13,6 +14,7 @@
   background-position: center;
   background-color: var( --dominant-color);
   background-attachment: fixed;
+  border: none;
 }
 
 .header {
