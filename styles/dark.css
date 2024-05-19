@@ -16,7 +16,6 @@
   --description: #000028;
   --ttl: #FF0070;
   --sbttl: #000028;
-  --accent-font: 'IBM Plex mono bold';
   --main-font: 'IBM Plex mono';
   --bg-page-img: url(../images/cover-image-dark.png);
   --rec: #FF0070;
@@ -40,7 +39,6 @@
     --description: #000028;
     --ttl: #FF0070;
     --sbttl: #000028;
-    --accent-font: 'IBM Plex mono bold';
     --main-font: 'IBM Plex mono';
     --bg-page-img: url(../images/cover-image-dark.png);
     --rec: #FF0070;
