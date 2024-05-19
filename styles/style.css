@@ -117,7 +117,7 @@
   inline-size: calc(100% - 20px);
 }
 
-@media (min-width: 768.09px){
+@media (min-width: 768.09px) {
   .header__theme-menu {
     justify-content: center;
     align-self: start;
